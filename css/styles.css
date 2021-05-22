@@ -1,0 +1,22 @@
+.container {
+  border: 1px solid;
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+}
+.nav-list a {
+  padding: 67px 14px 8px;
+}
+.nav-list li:not(:last-child) {
+  margin-right: 20px;
+}
+.nav-list a:hover,
+.nav-list a:focus {
+  background-color: #a3c1ef;
+}
+.user-menu {
+  display: flex;
+}
