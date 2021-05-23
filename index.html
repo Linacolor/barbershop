@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -34,12 +39,92 @@
         <ul class="user-menu">
           <li><img src="./images/Profile.svg" alt="Profile" /></li>
           <li><img src="./images/Notification.svg" alt="Notification" /></li>
-          <li><button type="button"></button></li>
+          <li><button type="button" class="button">Appointment</button></li>
         </ul>
       </div>
     </header>
     <main>
-      <section></section>
+      <section class="hero-section">
+        <div class="container">
+          <h1 class="hero-title">
+            <span class="hero-hairstyle accent">Hairstyle</span>
+            Reflects The Personality Inside You
+          </h1>
+          <p class="hero-text">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at.
+          </p>
+          <button type="button" class="button">Get Started</button>
+        </div>
+      </section>
+      <!-- our history section -->
+      <section class="our-history-section">
+        <div class="container">
+          <h2 class="our-history-title">
+            Our
+            <span class="history">History</span>
+          </h2>
+          <ul class="our-history-list">
+            <li class="our-history-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page w hen looking at.
+            </li>
+            <li class="our-history-text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page w hen looking at.
+            </li>
+          </ul>
+          <button type="button" class="button">Learn more</button>
+        </div>
+      </section>
+      <!-- services section-->
+      <section class="services-section">
+        <div class="container">
+          <h2 class="services-title">
+            Services We
+            <br />
+            <span class="provide">Provide</span>
+          </h2>
+          <ul class="services-list">
+            <li class="services-item">
+              <div class="icon">
+                <svg width="65px" height="58px">
+                  <use>href="./images/icon.svg#scissors"</use>
+                </svg>
+              </div>
+              <h3 class="title-services">Hair Cut</h3>
+              <p class="text-services">
+                long established fact that a re acted by the readable content of
+                hen looking at.
+              </p>
+            </li>
+            <li class="services-item">
+              <div class="icon">
+                <svg width="57px" height="57px">
+                  <use>href="./images/icon.svg#razor"</use>
+                </svg>
+              </div>
+              <h3 class="title-services">Beard Cut</h3>
+              <p class="text-services">
+                long established fact that a re acted by the readable content of
+                hen looking at.
+              </p>
+            </li>
+            <li class="services-item">
+              <div class="icon">
+                <svg width="66px" height="66px">
+                  <use>href="./images/icon.svg#pack"</use>
+                </svg>
+              </div>
+              <h3 class="title-services">Facial Pack</h3>
+              <p class="text-services">
+                long established fact that a re acted by the readable content of
+                hen looking at.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
